@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.apellidos{
+    color: blue,
+        
+}
+.section_1{
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    background-image:url(../img/450_1000.jpeg);
+    background-size: cover;
+}
+
+.formulario{
+    max-width: 600px;
+    height: 500px;
+    margin: auto;
+    
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    
+}
+
+.formulario_input{
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    
+    outline: none;
+}
+
+.titulo_form{
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.ms_form{
+    font-size: 15px;
+    color: #ffffff;
+    margin-top: 30px;
+}
